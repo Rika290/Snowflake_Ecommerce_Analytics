@@ -14,7 +14,7 @@
 
 ### 📸 Snapshots:
 Here’s a snapshot of the data table from the project:
-![Dataset Preview](images/
+![Dataset Preview](images/tables_overview.jpg)
 
 ### 🔄 Pipeline Overview:
 1️⃣ Raw Layer – Data Ingestion:
