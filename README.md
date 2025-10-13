@@ -1,4 +1,4 @@
-#  
+#  Snowflake_Ecommerce_Analytics
 
 ## 📌 Project Overview:
 - End-to-end data analytics pipeline built entirely in Snowflake, transforming raw e-commerce data into business-ready insights using SQL.
@@ -84,3 +84,12 @@ Here’s a snapshot of the data table from the project:
 - 👥 Top customers per city (window functions)
 - 📦 Top sellers by performance and revenue share
 
+## 📂 Project Structure: 
+- `README.md` → Complete project documentation
+- `1_SQL_Raw.sql` → Create and load raw tables
+- `2_SQL_Cleaning_and_Processing.sql` → Data cleaning and flagging
+- `3_SQL_Analytics.sql` → Business-level aggregated tables
+- `4_SQL_Quality_Check.sql` → Data quality validation
+- `5_SQL_Advanced_Analytics.sql` → Advanced analytics (CTEs, window, optimization)
+- `images/` → Screenshot (snowflake_table_overview)
+  
