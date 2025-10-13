@@ -44,13 +44,14 @@ Here’s a snapshot of the data table from the project:
 
 3️⃣ Analytics Layer – Business Aggregations
 - Generate key aggregated insights for decision-making
-| 🧩  Insight | 📄 Description |
-|------------|----------------|
-| `Top 10 Cities by Revenue` | Cities contributing the most to total revenue |
-| `Preferred Payment Types` | Most used and highest-value payment methods |
-| `Top 10 Selling Categories` | Product categories with highest total sales |
-| `Top 10 Sellers` | Sellers generating the highest sales |
-| `Monthly Sales Trend` | Month-wise revenue and order volume trend |
+  
+|           🧩  Insight            |                     📄 Description                   |
+|-----------------------------------|------------------------------------------------------|
+|     `Top 10 Cities by Revenue`    |     Cities contributing the most to total revenue    |
+|     `Preferred Payment Types`     |     Most used and highest-value payment methods      |
+|     `Top 10 Selling Categories`   |     Product categories with highest total sales      |
+|     `Top 10 Sellers`              |     Sellers generating the highest sales             |
+|     `Monthly Sales Trend`         |     Month-wise revenue and order volume trend        |
 
 - Schema: ecommerce.analytics
 
