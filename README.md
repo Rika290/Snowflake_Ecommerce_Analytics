@@ -65,7 +65,7 @@
       - vw_top_customers_per_city
       - sp_refresh_top_sellers
 
-###⚙️ Optimizations Implemented
+### ⚙️ Optimizations Implemented
 
 |       Type      |                    📄 Description                                              |                            Example                                 |
 |-----------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------|
@@ -73,7 +73,7 @@
 |  `Table-Level`  |  Clustered tables on high-frequency filter columns to improve scan performance | ALTER TABLE analytics.monthly_sales_trend CLUSTER BY (order_month); |
 ✅ Result: Faster query execution and reduced Snowflake compute cost.
 
-###📊 Business Insights Generated
+### 📊 Business Insights Generated
 - 📈 Monthly growth in sales and revenue
 - 🏙️ Highest revenue-contributing cities
 - 💳 Customer payment behavior and preferences
