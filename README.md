@@ -75,7 +75,8 @@ Here’s a snapshot of the data table from the project:
 |-----------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------|
 |  `Query-Level`  |  Pushed filters early using CTEs to reduce scanned data                        | vw_customer_order_summary_optimized                                 |
 |  `Table-Level`  |  Clustered tables on high-frequency filter columns to improve scan performance | ALTER TABLE analytics.monthly_sales_trend CLUSTER BY (order_month); |
-✅ Result: Faster query execution and reduced Snowflake compute cost.
+
+- ✅ Result: Faster query execution and reduced Snowflake compute cost.
 
 ### 📊 Business Insights Generated
 - 📈 Monthly growth in sales and revenue
