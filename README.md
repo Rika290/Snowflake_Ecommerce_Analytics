@@ -12,6 +12,10 @@
 - Stored Procedures & Views – Automated table refresh and complex query management
 - Data Quality Checks – Ensuring data consistency and integrity
 
+### 📸 Snapshots:
+Here’s a snapshot of the data table from the project:
+![Dataset Preview](images/
+
 ### 🔄 Pipeline Overview:
 1️⃣ Raw Layer – Data Ingestion:
 - Load CSV files into Snowflake using the COPY INTO command.
@@ -31,12 +35,12 @@
   3.Remove duplicates and inconsistent entries.
 - Schema: ecommerce.processed
 - Cleaned Tables:
- ✅ customers_clean
- ✅ orders_clean
- ✅ order_items_clean
- ✅ payments_clean
- ✅ products_clean
- ✅ sellers_clean
+   - customers_clean
+   - orders_clean
+   - order_items_clean
+   - payments_clean
+   - products_clean
+   - sellers_clean
 
 3️⃣ Analytics Layer – Business Aggregations
 - Generate key aggregated insights for decision-making
