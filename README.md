@@ -13,13 +13,13 @@
 - Data Quality Checks – Ensuring data consistency and integrity
 
 ### 📸 Snapshots:
+Below is the data warehouse schema for the project:
+
+![Data Model](images/data_model.jpg)
+
 Here’s a snapshot of the data table from the project:
 
 ![Dataset Preview](images/tables_overview.jpg)
-
-Below is the data warehouse schema for the project:
-
-![Data Model](images/data_model.png)
 
 ### 🔄 Pipeline Overview:
 1️⃣ Raw Layer – Data Ingestion:
