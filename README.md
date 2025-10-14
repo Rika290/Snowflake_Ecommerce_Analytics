@@ -13,17 +13,16 @@
 - Data Quality Checks – Ensuring data consistency and integrity
 
 ### 📸 Snapshots:
-📊 Data Warehouse Design and Snowflake Schema
-
-Developed a Snowflake-based data warehouse to efficiently organize and analyze e-commerce sales data.
-Designed a Snowflake schema model optimized for analytical queries, enabling seamless exploration of customer behavior, order patterns, and revenue insights.
-The data model comprises fact tables capturing transactional metrics and dimension tables providing descriptive business context.
+📊 Data Warehouse Design and Snowflake Schema:
+ - Developed a Snowflake-based data warehouse to efficiently organize and analyze e-commerce sales data.
+ - Designed a Snowflake schema model optimized for analytical queries, enabling seamless exploration of customer behavior, order patterns, and revenue insights.
+ - The data model comprises fact tables capturing transactional metrics and dimension tables providing descriptive business context.
 
 Schema Highlights:
-- Fact Tables: FactOrders, Order_ItemsFact, and PaymentsFact — contain order, item-level, and payment transaction data.
-- Dimension Tables: DimCustomer, DimProduct, and DimSeller — store customer, product, and seller details.
-- Relationships are defined through primary–foreign key mappings (customer_id, product_id, seller_id, order_id) for consistent referential integrity.
-
+ - Fact Tables: FactOrders, Order_ItemsFact, and PaymentsFact — contain order, item-level, and payment transaction data.
+ - Dimension Tables: DimCustomer, DimProduct, and DimSeller — store customer, product, and seller details.
+ - Relationships are defined through primary–foreign key mappings (customer_id, product_id, seller_id, order_id) for consistent referential integrity.
+   
 Below is the data warehouse schema for the project:
 
 ![Data Model](images/data_model.jpg)
