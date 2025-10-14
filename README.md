@@ -17,6 +17,10 @@ Here’s a snapshot of the data table from the project:
 
 ![Dataset Preview](images/tables_overview.jpg)
 
+### Data Warehouse and Snowflake Schema Design:
+
+![Data Model](images/data_model.png)
+
 ### 🔄 Pipeline Overview:
 1️⃣ Raw Layer – Data Ingestion:
 - Load CSV files into Snowflake using the COPY INTO command.
