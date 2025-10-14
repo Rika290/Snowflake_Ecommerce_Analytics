@@ -17,7 +17,7 @@ Here’s a snapshot of the data table from the project:
 
 ![Dataset Preview](images/tables_overview.jpg)
 
-### Data Warehouse and Snowflake Schema Design:
+Below is the data warehouse schema for the project:
 
 ![Data Model](images/data_model.png)
 
