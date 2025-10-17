@@ -104,7 +104,7 @@ Here’s a snapshot of the data table from the project:
 |-------|--------|----------------------|----------|
 | **Raw** | `ecommerce.raw` | customers_raw, orders_raw, order_items_raw, payments_raw | Data ingestion from CSV using COPY INTO |
 | **Processed** | `ecommerce.processed` | customers_clean, orders_clean, payments_clean | Data cleaning, validation flags, deduplication |
-| **Analytics** | `ecommerce.analytics` | monthly_sales_trend, top_cities_revenue | Aggregated business-level insights |
+| **Analytics** | `ecommerce.analytics` | monthly_sales_trend, top_10_cities_by_revenue | Aggregated business-level insights |
 | **Advanced Analytics** | `ecommerce.advanced_analytics` | vw_top_customers_per_city, sp_refresh_top_sellers | Deep analytics using CTEs, window functions, clustering |
 
 ## 📂 Project Structure: 
@@ -116,3 +116,9 @@ Here’s a snapshot of the data table from the project:
 - `5_SQL_Advanced_Analytics.sql` → Advanced analytics (CTEs, window, optimization)
 - `images/` → Screenshot (snowflake_table_overview)
   
+### 🧠 Key Learnings:
+- Designed a multi-layered Snowflake architecture using best practices  
+- Implemented data quality validation and referential integrity  
+- Optimized SQL queries using CTEs and clustering for performance  
+- Automated analytics refresh with stored procedures and views  
+
