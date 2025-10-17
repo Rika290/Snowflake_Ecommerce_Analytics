@@ -1,4 +1,4 @@
-#  Snowflake_Ecommerce_Analytics
+# 🧊 Snowflake_Ecommerce_Analytics
 
 ## 📌 Project Overview:
 - End-to-end data analytics pipeline built entirely in Snowflake, transforming raw e-commerce data into business-ready insights using SQL.
@@ -12,6 +12,10 @@
 - Stored Procedures & Views – Automated table refresh and complex query management
 - Data Quality Checks – Ensuring data consistency and integrity
 
+### 🏗️ Architecture Diagram:
+![Architecture Diagram](images/architecture_diagram.jpg)
+📘 The diagram illustrates the end-to-end flow — from raw CSV ingestion → data cleaning and transformation → analytical aggregation → advanced analytics, all within Snowflake.
+
 ### 📸 Snapshots:
 📊 Data Warehouse Design and Snowflake Schema:
  - Developed a Snowflake-based data warehouse to efficiently organize and analyze e-commerce sales data.
@@ -23,8 +27,7 @@ Schema Highlights:
  - Dimension Tables: DimCustomer, DimProduct, and DimSeller — store customer, product, and seller details.
  - Relationships are defined through primary–foreign key mappings (customer_id, product_id, seller_id, order_id) for consistent referential integrity.
    
-Below is the data warehouse schema for the project:
-
+📘 Below is the data model used for this project:
 ![Data Model](images/data_model.jpg)
 
 Here’s a snapshot of the data table from the project:
