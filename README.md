@@ -30,6 +30,7 @@ Schema Highlights:
  - Relationships are defined through primary–foreign key mappings (customer_id, product_id, seller_id, order_id) for consistent referential integrity.
    
 📘 Below is the data model used for this project:
+
 ![Data Model](images/data_model.jpg)
 
 Here’s a snapshot of the data table from the project:
