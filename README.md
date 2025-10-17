@@ -14,7 +14,8 @@
 
 ### 🏗️ Architecture Diagram:
 ![Architecture Diagram](images/architecture_diagram.jpg)
-📘 The diagram illustrates the end-to-end flow — from raw CSV ingestion → data cleaning and transformation → analytical aggregation → advanced analytics, all within Snowflake.
+📘 The diagram illustrates the end-to-end flow:
+from raw CSV ingestion → data cleaning and transformation → analytical aggregation → advanced analytics, all within Snowflake.
 
 ### 📸 Snapshots:
 📊 Data Warehouse Design and Snowflake Schema:
@@ -117,7 +118,10 @@ Here’s a snapshot of the data table from the project:
 - `3_SQL_Analytics.sql` → Business-level aggregated tables
 - `4_SQL_Quality_Check.sql` → Data quality validation
 - `5_SQL_Advanced_Analytics.sql` → Advanced analytics (CTEs, window, optimization)
-- `images/` → Screenshot (snowflake_table_overview)
+- `images/` →
+  - `architecture_diagram.jpg` → End-to-end Snowflake data pipeline architecture
+  - `data_model.jpg` → Snowflake schema / dimensional model
+  - `tables_overview.jpg` → Snapshot of Snowflake tables
   
 ### 🧠 Key Learnings:
 - Designed a multi-layered Snowflake architecture using best practices  
