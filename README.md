@@ -42,12 +42,12 @@ Here’s a snapshot of the data table from the project:
 - Loaded CSV files into Snowflake using the COPY INTO command
 - Stored in schema: ecommerce.raw
 - Created base raw tables for:
-  1.customers_raw
-  2.orders_raw
-  3.order_items_raw
-  4.payments_raw
-  5.products
-  6.sellers
+  - customers_raw
+  - orders_raw
+  - order_items_raw
+  - payments_raw
+  - products
+  - sellers
 
 2️⃣ Processed Layer – Data Cleaning & Transformation:
 - Stored in schema: ecommerce.processed
