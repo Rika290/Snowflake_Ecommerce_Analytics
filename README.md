@@ -33,22 +33,22 @@ Here’s a snapshot of the data table from the project:
 
 ### 🔄 Pipeline Overview:
 1️⃣ Raw Layer – Data Ingestion:
-- Load CSV files into Snowflake using the COPY INTO command.
-- Create base raw tables for:
+- Loaded CSV files into Snowflake using the COPY INTO command
+- Stored in schema: ecommerce.raw
+- Created base raw tables for:
   1.customers_raw
   2.orders_raw
   3.order_items_raw
   4.payments_raw
   5.products
   6.sellers
-- Schema: ecommerce.raw
 
-2️⃣ Processed Layer – Data Cleaning & Transformation
-- Clean and standardize data:
-  1.Trim spaces, correct data types, fix nulls.
-  2.Add validation flags (order_flag, item_flag, payment_flag).
-  3.Remove duplicates and inconsistent entries.
-- Schema: ecommerce.processed
+2️⃣ Processed Layer – Data Cleaning & Transformation:
+- Stored in schema: ecommerce.processed
+- key steps performed in Cleaning & Processing:
+  1. Trimming spaces, standardizing data types, handling nulls
+  2. Validation flags: order_flag, item_flag, payment_flag
+  3. Deduplication, inconsistent entries removed
 - Cleaned Tables:
    - customers_clean
    - orders_clean
@@ -57,8 +57,9 @@ Here’s a snapshot of the data table from the project:
    - products_clean
    - sellers_clean
 
-3️⃣ Analytics Layer – Business Aggregations
-- Generate key aggregated insights for decision-making
+3️⃣ Analytics Layer – Business Aggregations:
+- Stored in schema: ecommerce.analytics
+- Generated key aggregated insights for decision-making:
   
 |           🧩  Insight            |                     📄 Description                   |
 |-----------------------------------|------------------------------------------------------|
@@ -68,18 +69,14 @@ Here’s a snapshot of the data table from the project:
 |     `Top 10 Sellers`              |     Sellers generating the highest sales             |
 |     `Monthly Sales Trend`         |     Month-wise revenue and order volume trend        |
 
-- Schema: ecommerce.analytics
 
-4️⃣ Advanced Analytics Layer – Deep Insights
-- Implements advanced SQL topics such as:
+4️⃣ Advanced Analytics Layer – Deep Insights:
+- Stored in schema: ecommerce.advanced_analytics
+- Implemented advanced SQL topics such as:
   - CTEs for modular query optimization
   - Window functions (RANK(), SUM() OVER()) for ranking and cumulative metrics
   - Views for reusable analytical logic
   - Stored Procedures for automated refresh of top-performing tables
-  - Optimization techniques:
-       - Query-level: Filter pushdown with CTEs
-       - Table-level: Clustering by frequently used columns (order_month)
-  - Schema: ecommerce.advanced_analytics
   - Examples:
       - vw_customer_order_summary
       - vw_top_customers_per_city
@@ -100,6 +97,7 @@ Here’s a snapshot of the data table from the project:
 - 💳 Customer payment behavior and preferences
 - 👥 Top customers per city (window functions)
 - 📦 Top sellers by performance and revenue share
+
 
 ## 📂 Project Structure: 
 - `README.md` → Complete project documentation
