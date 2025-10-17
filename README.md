@@ -14,6 +14,7 @@
 
 ### 🏗️ Architecture Diagram:
 ![Architecture Diagram](images/architecture_diagram.jpg)
+
 📘 The diagram illustrates the end-to-end flow:
 from raw CSV ingestion → data cleaning and transformation → analytical aggregation → advanced analytics, all within Snowflake.
 
