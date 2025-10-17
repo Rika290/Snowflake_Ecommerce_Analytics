@@ -33,7 +33,7 @@ Schema Highlights:
 
 ![Data Model](images/data_model.jpg)
 
-Here’s a snapshot of the data table from the project:
+📘 Here’s a snapshot of the data table from the project:
 
 ![Dataset Preview](images/tables_overview.jpg)
 
