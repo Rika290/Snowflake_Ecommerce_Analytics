@@ -98,6 +98,14 @@ Here’s a snapshot of the data table from the project:
 - 👥 Top customers per city (window functions)
 - 📦 Top sellers by performance and revenue share
 
+## 🧾 Project Summary by Layer
+
+| Layer | Schema | Key Tables / Objects | Purpose |
+|-------|--------|----------------------|----------|
+| **Raw** | `ecommerce.raw` | customers_raw, orders_raw, order_items_raw, payments_raw | Data ingestion from CSV using COPY INTO |
+| **Processed** | `ecommerce.processed` | customers_clean, orders_clean, payments_clean | Data cleaning, validation flags, deduplication |
+| **Analytics** | `ecommerce.analytics` | monthly_sales_trend, top_cities_revenue | Aggregated business-level insights |
+| **Advanced Analytics** | `ecommerce.advanced_analytics` | vw_top_customers_per_city, sp_refresh_top_sellers | Deep analytics using CTEs, window functions, clustering |
 
 ## 📂 Project Structure: 
 - `README.md` → Complete project documentation
